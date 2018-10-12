@@ -1,4 +1,4 @@
-# <html> to <template> webpack loader
+# \<html\> to <template> webpack loader
 
 Create template from static html files with inline styles.
 
