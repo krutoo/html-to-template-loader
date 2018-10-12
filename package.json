@@ -1,0 +1,20 @@
+{
+  "name": "html-to-template-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Dmitry Petrov",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "html-loader": "^0.5.5",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "jsdom": "^12.1.0"
+  }
+}
