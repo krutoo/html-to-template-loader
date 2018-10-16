@@ -4,6 +4,14 @@ Create template from static html files with inline styles.
 
 Make `<web-components>` instead of `<iframes>`!
 
+## Installation
+
+Install with npm
+
+```bash
+npm install --save-dev html-to-template-loader
+```
+
 ## Usage
 
 Import html to use in your custom element:
@@ -22,5 +30,5 @@ export class TopBanner extends HTMLElement {
 ```
 
 ## To Do
-- make base64 from image links
-- make base64 from fonts links
+- auto generate base64 from paths to local images
+- auto generate base64 from paths to localc fonts
