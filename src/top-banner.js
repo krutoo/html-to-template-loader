@@ -1,5 +1,6 @@
 import html from '../index.js!../assets/asset.html';
 
+//  create a demo custom element with template from html file
 const template = document.createElement('template');
 
 template.innerHTML = html;
