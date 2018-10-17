@@ -1,14 +1,14 @@
 {
   "name": "html-to-template-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple loader to load html as content of template element",
   "main": "index.js",
   "scripts": {
     "build-demo": "webpack"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/krutoo/html-to-template-loader.git"
+    "type": "git",
+    "url": "https://github.com/krutoo/html-to-template-loader.git"
   },
   "author": "Dmitry Petrov",
   "license": "MIT",
