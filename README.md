@@ -31,4 +31,4 @@ export class TopBanner extends HTMLElement {
 
 ## To Do
 - auto generate base64 from paths to local images
-- auto generate base64 from paths to localc fonts
+- auto generate base64 from paths to local fonts
