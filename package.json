@@ -4,7 +4,8 @@
   "description": "Simple loader to load html as content of template element",
   "main": "index.js",
   "scripts": {
-    "build-demo": "webpack"
+    "example:build": "webpack",
+    "example:run": "static-server example/dist --open"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,9 @@
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "babel-loader": "^8.0.4",
-    "webpack": "^4.20.2",
+    "html-webpack-plugin": "^4.0.4",
+    "static-server": "^2.2.1",
+    "webpack": "^4.42.1",
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
