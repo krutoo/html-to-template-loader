@@ -1,4 +1,4 @@
-const JSDOM = require('jsdom').JSDOM;
+const { JSDOM } = require('jsdom');
 const css = require('css');
 const parser = require('postcss-selector-parser');
 
@@ -30,12 +30,14 @@ function packHTMLToTemplate (html) {
             </div>
         </div>
 	`;
+
     return template;
 }
 
 function processStyles (styleTextContent, substituteIds) {
     const ast = css.parse(styleTextContent)
     const rules = ast && ast.stylesheet && ast.stylesheet.rules;
+
     if (Array.isArray(rules)) {
         rules.forEach(rule => {
             if (Array.isArray(rule.selectors)) {
@@ -56,6 +58,7 @@ function processStyles (styleTextContent, substituteIds) {
             }
         });
     }
+
     return css.stringify(ast);
 }
 
