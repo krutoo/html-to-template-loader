@@ -17,6 +17,7 @@ npm install --save-dev html-to-template-loader
 Import html to use in your custom element:
 
 ```javascript
+// use loader inline or place to your webpack module.rules
 import templateHTML from 'html-to-template-loader!../html/banner.html';
 
 const template = document.createElement('template');
